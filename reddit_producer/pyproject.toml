@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "reddit-producer"
+version = "0.1.0"
+description = ""
+authors = ["Jasmine 💗 <jasmine.tw1127@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+praw = "^7.8.1"
+crc32c = "^2.7.1"
+kafka-python-ng = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
